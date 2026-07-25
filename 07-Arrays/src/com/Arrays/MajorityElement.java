@@ -49,6 +49,13 @@ public class MajorityElement {
     }
 
     //optimized code:
+    /*
+        Intuition
+        Har baar majority element kisi doosre element ke saath "cancel out" ho sakta hai.
+        Kyuki majority element n/2 se zyada baar aata hai,
+        sab cancellation ke baad bhi wahi bach jata hai.
+        Isliye is algorithm ko Voting Algorithm bhi bolte hain.
+     */
     static int majorityElement3(int[] nums) {
         int n = nums.length;
         int candidate = 0;
