@@ -3,7 +3,7 @@ package com.Arrays;
 import java.util.ArrayList;
 import java.util.HashSet;
 
-public class UnionOfArray {
+public class UnionOfTwoArray {
     static void main(String[] args) {
         int[] arr1 = {1,2,9,2,4,8,3};
         int[] arr2 = {1,2,3,4,5,6};
