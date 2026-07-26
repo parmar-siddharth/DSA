@@ -4,10 +4,10 @@ public class FindPivotIndex {
     static void main(String[] args) {
         int[] arr = {1,7,3,6,5,6};
         int[] nums = {2,1,-1};
-        System.out.println(pivotIndex2(arr));
+        System.out.println(pivotIndex(arr));
     }
 
-    //brute solution
+    //brute solution O(n²)
     static int pivotIndex(int[] nums) {
         int n = nums.length;
         for (int i = 0; i < n; i++) {
@@ -26,6 +26,7 @@ public class FindPivotIndex {
         return -1;
     }
 
+    // optimized solution O(n)
     static int pivotIndex2(int[] nums) {
         int n = nums.length;
         int totalSum = 0;

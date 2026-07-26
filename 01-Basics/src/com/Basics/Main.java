@@ -8,5 +8,9 @@ public class Main {
 //        System.out.println(input.next());  Reads first word
 //        System.out.println(input.nextInt()); Reads integer
 //        System.out.println(input.nextLine()); Reads whole line
+        /*
+                ⁰ ¹ ² ³ ⁴ ⁵ ⁶ ⁷ ⁸ ⁹
+                ⁺ ⁻ ⁼ ⁽ ⁾
+         */
     }
 }
