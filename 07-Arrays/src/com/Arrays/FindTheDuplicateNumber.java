@@ -1,4 +1,4 @@
-package com.Sorting;
+package com.Arrays;
 
 public class FindTheDuplicateNumber {
     public static void main(String[] args) {
