@@ -6,7 +6,7 @@ public class MaximumSubarray {
         System.out.println(maxSubArray(arr));
     }
     static int maxSubArray(int[] arr) {
-        int largestSum =  arr[0];
+        int largestSum =  Integer.MIN_VALUE;
         int currentSum = 0;
         for(int i = 0; i < arr.length; i++){
             currentSum += arr[i];
@@ -14,6 +14,19 @@ public class MaximumSubarray {
             if(currentSum > largestSum){
                 largestSum = currentSum;
             }
+            if(currentSum < 0){
+                currentSum = 0;
+            }
+        }
+        return largestSum;
+    }
+
+    static int maxSubArray2(int[] arr) {
+        int largestSum = Integer.MIN_VALUE;
+        int currentSum = 0;
+        for(int i = 0; i < arr.length; i++){
+            currentSum += arr[i];
+            largestSum = Math.max(largestSum, currentSum);
             if(currentSum < 0){
                 currentSum = 0;
             }
