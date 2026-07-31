@@ -23,7 +23,7 @@ public class QuickSort {
             if (i <= j) {
                 swap(arr, i, j);
                 i++;
-                j--;    
+                j--;
             }
         }
         quickSort(arr, start, j);
