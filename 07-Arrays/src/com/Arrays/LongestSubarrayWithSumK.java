@@ -5,8 +5,8 @@ import java.util.HashMap;
 
 public class LongestSubarrayWithSumK {
     static void main(String[] args) {
-        int[] arr = {1, 2, 3, 1, 1, 1, 4, 2, 3};
-        System.out.println(longestSubarray2(arr,3));
+        int[] arr = {-1,1,1};
+        System.out.println(longestSubarray2(arr,1));
     }
     //brute force approach : O (n²)
     static int longestSubarray(int[] arr, int k) {
