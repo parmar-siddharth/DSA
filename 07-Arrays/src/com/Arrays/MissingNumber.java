@@ -6,18 +6,18 @@ public class MissingNumber {
         System.out.println(missingNumber(arr));
     }
     //if array contains elements o to n
-//    static int missingNumber(int[] arr) {
-//        int xor = 0;
-//        int i = 0;
-//        for (i = 0; i < arr.length; i++) {
-//            //xor = xor^i^arr[i];
-//            xor ^= i^arr[i];
-//        }
-//        return xor^i;
-//    }
+    static int missingNumber(int[] arr) {
+        int xor = 0;
+        int i = 0;
+        for (i = 0; i < arr.length; i++) {
+            //xor = xor^i^arr[i];
+            xor ^= i^arr[i];
+        }
+        return xor^i;
+    }
 
     // if array contains elements 1 to n
-    static int missingNumber(int[] arr) {
+    static int missingNumber2(int[] arr) {
         int xor = 0;
         int i = 0;
         for (i = 0; i < arr.length; i++) {

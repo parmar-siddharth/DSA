@@ -16,7 +16,6 @@ public class RotateArrayByK {
         for(int i = 0; i < k; i++){
             temp[i] = nums[i];
         }
-        System.out.println(Arrays.toString(temp));
         for(int i = k; i < n; i++){
             nums[i-k] = nums[i];
         }

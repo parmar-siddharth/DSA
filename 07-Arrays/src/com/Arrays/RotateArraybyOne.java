@@ -2,20 +2,13 @@ package com.Arrays;
 
 import java.util.Arrays;
 
-public class RotateArrayby1 {
+public class RotateArraybyOne {
     static void main(String[] args) {
         int[] arr = {1,2,3,4,5};
         rightRotateby1(arr);
         System.out.println(Arrays.toString(arr));
     }
-    //brute
-    static void rotate(int[] nums) {
-        int temp = nums[0];
-        nums[0] = nums[nums.length - 1];
-        nums[nums.length - 1] = temp;
-    }
 
-    //better
     static void rightRotateby1(int[] nums) {
         int n  = nums.length;
         int temp = nums[n-1];
