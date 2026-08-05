@@ -8,12 +8,12 @@ import java.util.List;
 public class LeadersInArray {
     static void main(String[] args) {
         int[] nums = {10,22,12,12,3,0,6};
-        System.out.println(Arrays.toString(leader(nums)));
+        System.out.println(leader2(nums));
     }
     //brute force
-    static int[] leader(int[] arr){
+    static ArrayList<Integer> leader(int[] arr){
         int n = arr.length;
-        List<Integer> list = new ArrayList<>();
+        ArrayList<Integer> list = new ArrayList<>();
         for (int i = 0; i < n; i++) {
             boolean isLeader = true;
             for (int j = i+1; j < n; j++) {
@@ -26,19 +26,14 @@ public class LeadersInArray {
                 list.add(arr[i]);
             }
         }
-        int size = list.size();
-        int[] ans = new int[size];
-        for (int i = 0; i < size; i++) {
-            ans[i] = list.get(i);
-        }
-        return ans;
+        return list;
     }
 
     // optimal solution
-    static int[] leader2(int[] arr){
+    static ArrayList<Integer> leader2(int[] arr){
         int n = arr.length;
         int max = Integer.MIN_VALUE;
-        List<Integer> list = new ArrayList<>();
+        ArrayList<Integer> list = new ArrayList<>();
         for (int i = n-1; i >= 0; i--) {
             if (arr[i] >= max){
                 max = arr[i];
@@ -46,10 +41,6 @@ public class LeadersInArray {
             }
         }
         Collections.reverse(list);
-        int[] ans = new int[list.size()];
-        for (int i = 0; i < list.size(); i++) {
-            ans[i] = list.get(i);
-        }
-        return ans;
+        return list;
     }
 }
