@@ -5,7 +5,14 @@ import java.util.List;
 
 public class SpiralMatrix {
     static void main(String[] args) {
-        int[][] matrix = {{1,2,3,4},{5,6,7,8},{9,10,11,12},{13,14,15,16}};
+        int[][] matrix = {
+                 {1,2,3,4}
+                ,{5,6,7,8}
+                ,{9,10,11,12}
+                ,{13,14,15,16}
+                ,{17,18,19,20}
+                ,{21,22,23,24}
+        };
         System.out.println(spiralOrder(matrix));
     }
     static List<Integer> spiralOrder(int[][] matrix) {
@@ -16,21 +23,25 @@ public class SpiralMatrix {
         ArrayList<Integer> list = new ArrayList<>();
         while (top <= bottom && left <= right){
             for (int i = left; i <= right; i++) {
-                list.add(matrix[top][i]);
+                list.add(matrix[top][left]);
             }
             top++;
             for (int i = top; i <= bottom; i++) {
-                list.add(matrix[top][i]);
+                list.add(matrix[i][right]);
             }
             right--;
-            for (int i = right; i >= left; i--) {
-                list.add(matrix[bottom][i]);
+            if(top <= bottom){
+                for(int i = right; i >= left; i--){
+                    list.add(matrix[bottom][i]);
+                }
+                bottom--;
             }
-            bottom--;
-            for (int i = bottom; i >= top ; i--) {
-                list.add(matrix[i][left]);
+            if(left <= right){
+                for(int i = bottom; i >= top; i--){
+                    list.add(matrix[i][left]);
+                }
+                left++;
             }
-            left++;
         }
         return list;
     }
