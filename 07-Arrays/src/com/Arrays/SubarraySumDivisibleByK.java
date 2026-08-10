@@ -7,21 +7,35 @@ public class SubarraySumDivisibleByK {
         int[] arr = {-1,2,9};
         System.out.println(subarraysDivByK(arr,2));
     }
-    static int subarraysDivByK(int[] nums, int k) {
+    static int subarraysDivByK(int[] nums,int k){
         int n = nums.length;
         int count = 0;
-        int sum = 0;
-        HashMap<Integer,Integer> map = new HashMap<>();
-        map.put(0,1);
         for (int i = 0; i < n; i++) {
-            sum += nums[i];
-            int rem = ((sum % k) + k) % k;
-            if (map.containsKey(rem)){
-                count += map.get(rem);
+            int sum = 0;
+            for (int j = i; j < n; j++) {
+                sum += nums[j];
+                if (sum % k == 0)
+                    count += 1;
             }
-            map.put(rem,map.getOrDefault(rem,0)+1);
-            System.out.println(map);
         }
         return count;
     }
+    // optimal solution
+//    static int subarraysDivByK(int[] nums, int k) {
+//        int n = nums.length;
+//        int count = 0;
+//        int sum = 0;
+//        HashMap<Integer,Integer> map = new HashMap<>();
+//        map.put(0,1);
+//        for (int i = 0; i < n; i++) {
+//            sum += nums[i];
+//            int rem = ((sum % k) + k) % k;
+//            if (map.containsKey(rem)){
+//                count += map.get(rem);
+//            }
+//            map.put(rem,map.getOrDefault(rem,0)+1);
+//            System.out.println(map);
+//        }
+//        return count;
+//    }
 }
