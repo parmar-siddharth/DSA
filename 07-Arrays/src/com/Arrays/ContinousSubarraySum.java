@@ -15,7 +15,7 @@ public class ContinousSubarraySum {
         for (int i = 0; i < n; i++) {
             sum += nums[i];
             //if (i >= 1 && sum % k == 0) return true;
-            int rem = sum % k;
+            int rem = ((sum % k) + k) % k;
             if (map.containsKey(rem)){
                 if (i - map.get(rem) >= 2) return true;
             }
