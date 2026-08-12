@@ -7,7 +7,7 @@ public class PascalTriangle {
     static void main(String[] args) {
         int[][] nums = {{1},{1,1},{1,2,1},{1,3,3,1},{1,4,6,4,1}};
         System.out.println(nCr(2,1));
-        printNthRow(6);
+        printNthRow(3);
         System.out.println(generate(6));
     }
     // Q. Find element in the pascal triangle:
@@ -30,8 +30,8 @@ public class PascalTriangle {
             ans /= col;
             System.out.print(ans + " ");
         }
+        System.out.println();
     }
-
     static List<List<Integer>> generate(int numRows) {
         List<List<Integer>> res = new ArrayList<>();
         for (int row = 1; row < numRows; row++) {
