@@ -36,7 +36,7 @@ public class RotateImage {
 //        }
 //        System.out.println(Arrays.deepToString(matrix));
 //        for (int i = 0; i < n; i++) {
-//            for (int j = 1; j < n; j++) {
+//            for (int j = i+1; j < n; j++) {
 //                int temp = matrix[i][j];
 //                matrix[i][j] = matrix[j][i];
 //                matrix[j][i] = temp;

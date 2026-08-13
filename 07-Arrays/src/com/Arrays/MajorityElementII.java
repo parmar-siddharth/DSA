@@ -1,51 +1,100 @@
 package com.Arrays;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 
 public class MajorityElementII {
     static void main(String[] args) {
-        /*
-        Given an array nums of size n, return the majority element.
-
-        The majority element is the element that appears more than ⌊n / 2⌋ times.
-        You may assume that the majority element always exists in the array.
-         */
-
-        int[] arr = {1};
-        System.out.println(majorityElement2(arr));
+     //Given an integer array of size n, find all elements that appear more than ⌊n / 3⌋ times.
+        int[] arr = {1,2};
+        System.out.println(majorityELement(arr));
     }
 
-    //brute force approach:
-    static int majorityElement(int[] nums) {
-        HashMap<Integer, Integer> map = new HashMap<>();
-        for(int i : nums){
-            map.put(i, map.getOrDefault(i, 0) + 1);
-        }
-        int max = 0;
-        int element = 0;
-        for(int j : map.keySet()){
-            if(map.get(j) > max){
-                max = map.get(j);
-                element = j;
-            }
-        }
-        return element;
-    }
+    //brute force
+//    static List<Integer> majorityElement(int[] nums) {
+//        int n = nums.length;
+//        List<Integer> ans = new ArrayList<>();
+//        for(int i = 0; i < n; i++){
+//            if(ans.contains(nums[i])){
+//                continue;
+//            }
+//            int count = 0;
+//            for(int j = 0; j < n; j++){
+//                if(nums[j] == nums[i]){
+//                    count++;
+//                }
+//            }
+//            if(count > n / 3){
+//                ans.add(nums[i]);
+//            }
+//        }
+//        return ans;
+//    }
 
-    //brute force approach with less lines of code
-    static int majorityElement2(int[] nums) {
+
+
+
+    // better solution
+//    static List<Integer> majorityElement(int[] nums) {
+//        int n = nums.length;
+//        int limit = n/3;
+//        HashMap<Integer,Integer> map = new HashMap<>();
+//        List<Integer> list = new ArrayList<>();
+//        for(int num : nums){
+//            int freq = map.getOrDefault(num,0)+1;
+//            if(freq > limit){
+//                if(!list.contains(num)) {
+//                    list.add(num);
+//                }
+//            }
+//            map.put(num,freq);
+//        }
+//        return list;
+//    }
+
+    static List<Integer> majorityELement(int[] nums){
         int n = nums.length;
-        HashMap<Integer, Integer> map = new HashMap<>();
-        int limit = n/3;
-        for(int i : nums){
-            int freq = map.getOrDefault(i, 0)+1;
-            if(freq > limit){
-                return i;
+        int candidate1 = 0;
+        int candidate2 = 0;
+        int count1 = 0;
+        int count2 = 0;
+        for (int i = 0; i < n; i++) {
+            if (count1 == 0 && nums[i] != candidate2){
+                count1++;
+                candidate1 = nums[i];
             }
-            //map.put(i, map.getOrDefault(i, 0) + 1);
-            map.put(i,freq);
+            else if (count2 == 0 && nums[i] != candidate1) {
+                count2++;
+                candidate2 = nums[i];
+            }
+            else if (nums[i] == candidate1){
+                count1++;
+            }else if (nums[i] == candidate2) {
+                count2++;
+            }
+            else {
+                count1--;
+                count2--;
+            }
         }
-        return -1;
+        List<Integer> list = new ArrayList<>();
+        int limit = n/3;
+        for (int i = 0; i < n; i++) {
+            count1 = 0;
+            count2 = 0;
+            if (nums[i] == candidate1){
+                count1++;
+            } else if (nums[i] == candidate2) {
+                count2++;
+            }
+        }
+        if (count1 > limit){
+            list.add(candidate1);
+        }
+        if (count2 > limit){
+            list.add(candidate2);
+        }
+        return list;
     }
-
 }
