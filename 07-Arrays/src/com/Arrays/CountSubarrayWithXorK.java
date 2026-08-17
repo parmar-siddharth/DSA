@@ -33,7 +33,10 @@ public class CountSubarrayWithXorK {
         map.put(0,1);
         for (int i = 0; i < n; i++) {
             xor ^= nums[i];
-            count += map.getOrDefault(xor ^ k,0);
+            int req = xor ^ k;
+            if (map.containsKey(req)){
+                count += map.get(req);
+            }
             map.put(xor,map.getOrDefault(xor,0)+1);
         }
         return count;
