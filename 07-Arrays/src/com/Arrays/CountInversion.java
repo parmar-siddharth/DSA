@@ -23,6 +23,7 @@ public class CountInversion {
         return count;
     }
 
+    // optimal solution
     static int countInversions2(int[] nums){
         return mergeSort(nums,0,nums.length-1);
     }
