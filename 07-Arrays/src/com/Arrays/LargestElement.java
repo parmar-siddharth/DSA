@@ -7,12 +7,25 @@ public class LargestElement {
     }
 
     static int largest(int[] arr){
-        int maxval = arr[0];
-        for (int i = 1; i < arr.length; i++){
-            if (maxval < arr[i]){
-                maxval = arr[i];
+        int n = arr.length;
+        int largest = Integer.MIN_VALUE;
+        for (int i = 0; i < n; i++) {
+            if (arr[i] > largest){
+                largest = arr[i];
             }
         }
-        return maxval;
+        return largest;
     }
+
+    // another method using for each loop
+    static int largest2(int[] nums){
+        int largest = Integer.MIN_VALUE;
+        for (int num : nums){
+            if (num > largest){
+                largest = num;
+            }
+        }
+        return largest;
+    }
+
 }

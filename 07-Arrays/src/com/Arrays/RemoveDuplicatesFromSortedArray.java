@@ -10,12 +10,13 @@ public class RemoveDuplicatesFromSortedArray {
     public static int removeDuplicates(int[] nums) {
         int n = nums.length;
         int k = 0;
-        for(int i=1;i<n;i++){
-            if(nums[i] != nums[k]){
-                k++;
+        for (int i = 1; i < n; i++) {
+            if (nums[i] != nums[k]){
+                k += 1;
+                int temp =  nums[k];
                 nums[k] = nums[i];
+                nums[i] = temp;
             }
-            System.out.println(Arrays.toString(nums));
         }
         return k+1;
     }

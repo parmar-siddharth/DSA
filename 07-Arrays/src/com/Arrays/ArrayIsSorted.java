@@ -2,15 +2,20 @@ package com.Arrays;
 
 public class ArrayIsSorted {
     static void main(String[] args) {
-        int[] arr = {1,2,4,5,7,8};
+        int[] arr = {1,2,9,5,7,8};
         System.out.println(isSorted(arr));
     }
-    static boolean isSorted(int[] arr){
-        int n = arr.length;
-        for (int i = 0; i < n-1; i++) {
-            if (arr[i] > arr[i+1])
-                return false;
-        }
-        return true;
+    static boolean isSorted(int[] nums){
+       int n = nums.length;
+       boolean issorted = true;
+       for (int i = 1; i < n; i++){
+           if (nums[i] >= nums[i-1]){
+               issorted = true;
+           }
+           else{
+               issorted = false;
+           }
+       }
+       return issorted;
     }
 }

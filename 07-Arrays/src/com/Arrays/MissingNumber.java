@@ -1,9 +1,12 @@
 package com.Arrays;
 
+import java.net.Inet4Address;
+import java.util.HashMap;
+
 public class MissingNumber {
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 5, 7, 8, 9 };
-        System.out.println(missingNumber(arr));
+        System.out.println(missingNumber2(arr));
     }
     //if array contains elements o to n
     static int missingNumber(int[] arr) {

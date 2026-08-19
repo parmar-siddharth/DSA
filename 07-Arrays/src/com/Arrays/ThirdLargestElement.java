@@ -7,21 +7,24 @@ public class ThirdLargestElement {
 
     }
     static int thirdMax(int[] nums) {
-        int largest = Integer.MIN_VALUE;
-        int secondLargest = Integer.MIN_VALUE;
-        int thirdLargest = Integer.MIN_VALUE;
-        for (int num : nums) {
-            if(num > largest){
-                thirdLargest = secondLargest;
-                secondLargest = largest;
-                largest = num;
-            } else if (num > secondLargest && num != largest) {
-                thirdLargest = secondLargest;
-                secondLargest = num;
-            }else if(num > thirdLargest && num != largest &&  num != secondLargest){
-                thirdLargest = num;
-            }
-        }
-        return thirdLargest;
+       int n = nums.length;
+       int firstlargest = Integer.MIN_VALUE;
+       int secondlargest = Integer.MIN_VALUE;
+       int thirdlargest = Integer.MIN_VALUE;
+       for (int i = 0; i < n ; i++){
+           if (nums[i] > firstlargest && nums[i] != secondlargest && nums[i] != thirdlargest){
+               thirdlargest = secondlargest;
+               secondlargest = firstlargest;
+               firstlargest = nums[i];
+           }
+           else if (nums[i] > secondlargest && nums[i] != firstlargest && nums[i] != thirdlargest){
+               thirdlargest = secondlargest;
+               secondlargest = nums[i];
+           }
+           else if (nums[i] > thirdlargest && nums[i] != secondlargest && nums[i] != firstlargest){
+               thirdlargest = nums[i];
+           }
+       }
+       return thirdlargest;
     }
 }

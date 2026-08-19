@@ -7,14 +7,16 @@ public class SecondLargestElement {
 
     }
     static int secondLargestElement(int[] nums) {
-        int largest =  Integer.MIN_VALUE;
+        int n = nums.length;
+        int firstLargest = Integer.MIN_VALUE;
         int secondLargest = Integer.MIN_VALUE;
-        for(int num : nums){
-            if(num > largest){
-                secondLargest = largest;
-                largest = num;
-            } else if (num > secondLargest && num != largest) {
-                secondLargest = num;
+        for (int i = 0; i < n; i++){
+            if (nums[i] > firstLargest && nums[i] != secondLargest){
+                secondLargest = firstLargest;
+                firstLargest = nums[i];
+            }
+            else if (nums[i] > secondLargest && nums[i] != firstLargest){
+                secondLargest = nums[i];
             }
         }
         return secondLargest;
