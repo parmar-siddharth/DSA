@@ -5,26 +5,26 @@ import java.util.Arrays;
 public class CountInversion {
     static void main(String[] args) {
         int[] arr = {5,3,2,4,1};
-        System.out.println(countInversions2(arr));
+        System.out.println(countInversions(arr));
 //        int[] nums1 = {2,3,5,6};
 //        int[] nums2 = {2,2,4,4,8};
 //        System.out.println(countInversions(nums1,nums2));
     }
 
     /// brute force
-    static int countInversions(int[] nums){
-        int n = nums.length;
-        int count = 0;
-        for (int i = 0; i < n; i++) {
-            for (int j = i+1; j < n; j++) {
-                if (nums[i] > nums[j]) count++;
-            }
-        }
-        return count;
-    }
+//    static int countInversions(int[] nums){
+//        int n = nums.length;
+//        int count = 0;
+//        for (int i = 0; i < n; i++) {
+//            for (int j = i+1; j < n; j++) {
+//                if (nums[i] > nums[j]) count++;
+//            }
+//        }
+//        return count;
+//    }
 
-    // optimal solution
-    static int countInversions2(int[] nums){
+    /// optimal solution
+    static int countInversions(int[] nums){
         return mergeSort(nums,0,nums.length-1);
     }
     static int mergeSort(int[] arr,int low,int high) {
