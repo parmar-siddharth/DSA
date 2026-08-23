@@ -27,10 +27,10 @@ public class RotatedSortedArray {
               return mid -1;
           }
           //case 3:
-          if(arr[start] == arr[mid] && arr[end] == arr[mid]){
-              start++;
-              end--;
-          }
+//          if(arr[start] == arr[mid] && arr[end] == arr[mid]){
+//              start++;
+//              end--;
+//          }
           else if (arr[mid] >= arr[start]){         //decide direction... if not found by above two cases
               start = mid + 1;
           }
