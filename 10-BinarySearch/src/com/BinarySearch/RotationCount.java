@@ -1,32 +1,35 @@
 package com.BinarySearch;
 
+import java.util.ArrayList;
+
 public class RotationCount {
     public static void main(String[] args) {
         int[] arr = {8,9,10,0,1,2,3,4,5,6,7};
-        System.out.println(minimum(arr));
+        System.out.println(findKRotation(arr));
     }
-    static int minimum(int[] arr){
-        int start = 0;
-        int end = arr.length - 1;
+    static int findKRotation(int[] nums){
+        int n = nums.length;
+        int low = 0;
+        int high = n - 1;
         int min = Integer.MAX_VALUE;
-        int index = -1;
-        while (start <= end){
-            int  mid = start + (end - start) / 2;
-            if (arr[start] <= arr[mid]){
-                if (arr[start] < min){
-                    min = arr[start];
-                    index = start;
+        int count = -1;
+        while (low <= high){
+            int mid = low + (high - low) / 2;
+            if (nums[low] <= nums[mid]){
+                if(nums[low] < min){
+                    min = nums[low];
+                    count = low;
                 }
-                start = mid + 1;
+                low = mid + 1;
             }
             else {
-                if (arr[mid] < min){
-                    min = arr[mid];
-                    index = mid;
+                if (nums[mid] < min){
+                    min = nums[mid];
+                    count = mid;
                 }
-                end = mid - 1;
+                high = mid - 1;
             }
         }
-        return index;
+        return count;
     }
 }

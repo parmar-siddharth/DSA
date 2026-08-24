@@ -7,7 +7,7 @@ public class BinarySearch2D {
         int[][] arr = {
                 {10,20,30,40},
                 {12,24,31,42},
-                {15,26,35 ,45},
+                {15,26,35,45},
                 {17,29,37,48}
         };
         System.out.println(Arrays.toString(search(arr,37)));
