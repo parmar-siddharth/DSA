@@ -2,7 +2,7 @@ package com.BinarySearch;
 
 public class NthRootOfaNumber {
     static void main(String[] args) {
-        System.out.println(NthRoot(3,64));
+        System.out.println(NthRoot(2,100));
     }
     static int NthRoot(int N,int M){
         int low = 1;
