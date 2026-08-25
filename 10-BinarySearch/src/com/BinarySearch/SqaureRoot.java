@@ -2,7 +2,7 @@ package com.BinarySearch;
 
 public class SqaureRoot {
     public static void main(String[] args) {
-        System.out.println(srqt(169));
+        System.out.println(srqt(170));
     }
     static int srqt(int x){
         if(x < 2){
