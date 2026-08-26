@@ -10,7 +10,7 @@ public class KokoEatingBananas {
         for (int num : piles){
             max = Math.max(max,num);
         }
-        int low = 1;
+        int low = 0;
         int high = max;
         int ans = -1;
         while (low <= high){
