@@ -6,39 +6,33 @@ public class SplitArray {
         System.out.println(splitArray(arr,2));
     }
     static int splitArray(int[] nums, int k) {
-        int start = 0;
-        int end = 0;
-        for (int i = 0; i < nums.length; i++) {
-                start = Math.min(start,nums[i]);
-                end += nums[i];
+        int low = Integer.MIN_VALUE;
+        int high = 0;
+        for(int num : nums){
+            low = Math.max(low,num);
+            high += num;
         }
-
-        //binary search
-
-        while (start < end){
-            int mid = start + (end - start) / 2;
-            int partitions = countPartitions(nums,mid);
-            if (partitions > k){
-                start = mid + 1;
+        while(low <= high){
+            int mid = low + (high - low) / 2;
+            if(canSplit(nums,k,mid)){
+                high = mid - 1;
             }
-            else {
-                end = mid;
+            else{
+                low = mid + 1;
             }
         }
-        return end;
+        return low;
     }
-    static int countPartitions(int[] arr,int maxSum){
-        int sum = 0;
+    static boolean canSplit(int[] nums,int k,int largSum){
         int partitions = 1;
-        for (int num : arr){
-            if (sum + num <= maxSum){
-                sum += num;
-            }
-            else {
-                sum = num;
+        int sum = 0;
+        for(int num : nums){
+            if((sum + num) > largSum){
                 partitions++;
+                sum = num;
             }
+            else sum += num;
         }
-        return partitions;
+        return partitions <= k;
     }
 }
