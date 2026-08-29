@@ -47,9 +47,19 @@ public class Stringbuilder {
             So: String manipulation in DSA → StringBuilder
          */
 
-        String s = "hello world java";
-        String[] arr1 = s.split(" ");
+        String s = "helloaaaasid";
+        String[] arr1 = s.split("a*");
         System.out.println(Arrays.toString(arr1));
+
+        /*
+            Abhi bas ye 5 yaad rakho:
+            Regex	Meaning	Example
+            +	1 or more	a+ → a, aa, aaa
+            *	0 or more	a* → "", a, aa
+            ?	0 or 1	a? → "", a
+            .	any single character	a.c → abc, axc
+            \\d	digit	0-9
+         */
 
 
         /// Frequency Array
