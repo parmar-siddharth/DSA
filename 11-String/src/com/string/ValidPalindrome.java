@@ -14,7 +14,7 @@ public class ValidPalindrome {
 //            }
 
     }
-    // 
+    //
     static boolean isPalindrome(String s) {
         String str = s.replaceAll("[^a-zA-Z0-9]","").toLowerCase();
         int i = 0;
