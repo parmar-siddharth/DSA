@@ -1,5 +1,3 @@
-
-
 import java.util.Scanner;
 
 public class Inputs {
@@ -8,7 +6,6 @@ public class Inputs {
         Scanner input = new Scanner(System.in);
         String name = input.nextLine();
         System.out.println("your user id is " + name+"@user");
-
-
+        input.close();
     }
 }
