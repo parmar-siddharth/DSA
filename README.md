@@ -19,12 +19,13 @@ I am using this repo to learn, implement, and revise DSA concepts step by step u
 
 - ✅ Basics of Java
 - ✅ Conditions & Loops
-- 🔄 Arrays
-- 🔄 Strings
-- 🔄 Recursion
-- 🔄 Searching Algorithms
-- 🔄 Sorting Algorithms
-- 🔄 Linked List
+- ✅ Arrays
+- ✅ Binary Search
+- ✅ Strings
+- ✅ Recursion
+- ✅ Searching Algorithms
+- ✅ Sorting Algorithms
+- ✅ Linked List
 - 🔄 Stack & Queue
 - 🔄 Hashing
 - 🔄 Trees
@@ -54,8 +55,7 @@ Each folder contains:
 ## 📈 Learning Status
 
 🟢 Actively learning & updating  
-🟡 Refactoring older solutions  
-🔵 Adding optimized approaches  
+🔵 LeetCode: https://leetcode.com/u/Siddharth-parmar/
 
 ---
 
