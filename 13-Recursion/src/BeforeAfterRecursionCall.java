@@ -1,5 +1,5 @@
 public class BeforeAfterRecursionCall {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         //printBeforeRecursion(10);
         printAfterRecursion(10);
     }

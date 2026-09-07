@@ -1,5 +1,5 @@
 public class ThirdLargestElement {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         int[] arr = {7,4,5,2,9,4,1,8,2,5,1,5,5,2,4,12,5,1,5,15,25,51,5,1,0,4};
         System.out.println(thirdMax(arr));
 

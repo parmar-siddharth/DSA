@@ -1,5 +1,5 @@
 public class FirstUnsortedElement {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         int[] arr = {4,8,7,9,2,1,2,7,8,3,8};
         System.out.println(firstUnsortedElement(arr));
     }

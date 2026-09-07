@@ -1,5 +1,5 @@
 public class ReversePair {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         int[] arr = {2147483647,2147483647,2147483647,2147483647,2147483647,2147483647};
         System.out.println(reversePairs(arr));
     }

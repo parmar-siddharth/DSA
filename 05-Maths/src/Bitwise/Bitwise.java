@@ -1,7 +1,7 @@
 package Bitwise;
 
 public class Bitwise {
-    static void main(String[] args) {
+    public static void main(String[] args) {
 
         /*
         | Data Type |    Size (Bits) |   Size (Bytes) | Range                 |

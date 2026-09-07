@@ -1,7 +1,7 @@
 import java.util.HashMap;
 
 public class ContinousSubarraySum {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         int[] arr = {22,4,5,6,7,1,2,9};
         System.out.println(checkSubarraySum(arr,4));
     }

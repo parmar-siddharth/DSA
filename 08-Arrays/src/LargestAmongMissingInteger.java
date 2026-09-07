@@ -2,7 +2,7 @@ import java.util.HashMap;
 import java.util.HashSet;
 
 public class LargestAmongMissingInteger {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         int[] arr = {3,9,2,1,7};
         System.out.println(largestInteger(arr,3));
     }

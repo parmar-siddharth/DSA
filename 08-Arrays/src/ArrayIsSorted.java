@@ -1,5 +1,5 @@
 public class ArrayIsSorted {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         int[] arr = {1,2,9,5,7,8};
         System.out.println(isSorted(arr));
     }

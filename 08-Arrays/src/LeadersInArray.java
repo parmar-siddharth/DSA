@@ -4,7 +4,7 @@ import java.util.Collections;
 import java.util.List;
 
 public class LeadersInArray {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         int[] nums = {10,22,12,12,3,0,6};
         System.out.println(leader2(nums));
     }

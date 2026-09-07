@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 public class SumOfBeautyOfAllSubstring {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         String s = "aabcbaa";
         System.out.println(beautySum(s));
     }

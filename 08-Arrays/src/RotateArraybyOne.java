@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 public class RotateArraybyOne {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         int[] arr = {1,2,3,4,5};
 //        rightRotateby1(arr);
 //        System.out.println(Arrays.toString(arr));

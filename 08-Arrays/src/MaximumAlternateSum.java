@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 public class MaximumAlternateSum {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         long n = 10;
         System.out.println(Alternate(n));
         ArrayList<Integer> list = new ArrayList<>();

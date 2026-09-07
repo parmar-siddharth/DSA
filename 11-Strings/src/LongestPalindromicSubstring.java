@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class LongestPalindromicSubstring {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         String s = "babbad";
         System.out.println(longestPalindrome(s));
     }

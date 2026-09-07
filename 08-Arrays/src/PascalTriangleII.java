@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class PascalTriangleII {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         System.out.println(getRow(3));
     }
     static List<Integer> getRow(int rowIndex) {

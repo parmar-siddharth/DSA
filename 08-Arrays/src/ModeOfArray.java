@@ -2,7 +2,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class ModeOfArray {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         int[] arr = {1,2,2,4,5,2,7,5,7,2,3,7,5,1,9,2};
         mode(arr);
     }

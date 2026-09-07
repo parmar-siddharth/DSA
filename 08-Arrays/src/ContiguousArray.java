@@ -1,7 +1,7 @@
 import java.util.HashMap;
 
 public class ContiguousArray {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         //int[] arr = {0,1,1,1,1,1,0,0,0};
         int[] arr = {0,1};
         System.out.println(findMaxLength(arr));

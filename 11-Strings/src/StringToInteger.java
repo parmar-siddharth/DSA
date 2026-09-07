@@ -1,5 +1,5 @@
 public class StringToInteger {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         String s =  "  ";
         System.out.println(myAtoi(s));
     }

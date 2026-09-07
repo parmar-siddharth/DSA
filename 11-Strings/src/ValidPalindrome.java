@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 public class ValidPalindrome {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         String s = "A man, a plan, a canal: Panama";
         System.out.println(isPalindrome(s));
 //        StringBuilder sb = new StringBuilder();

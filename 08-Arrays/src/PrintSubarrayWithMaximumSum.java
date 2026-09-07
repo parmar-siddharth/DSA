@@ -1,5 +1,5 @@
 public class PrintSubarrayWithMaximumSum {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         int[] arr = {-2, -3, -7, -2, -10, -4};
         System.out.println(maxSubArray(arr));
     }

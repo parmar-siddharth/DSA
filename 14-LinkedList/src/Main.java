@@ -1,5 +1,5 @@
 public class Main {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         SinglyLL list = new SinglyLL();
         list.insertFirst(3);
         list.insertFirst(5);

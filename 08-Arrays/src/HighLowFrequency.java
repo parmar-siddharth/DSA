@@ -2,7 +2,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class HighLowFrequency {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         int[] arr = {1,1,2,2,2,2,3,3,3,3,4,4,4,5,5,5,5,5,5};
         highLowFrequency2(arr);
     }

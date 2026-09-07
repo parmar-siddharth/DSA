@@ -1,5 +1,5 @@
 public class PalindromeUsingRecursion {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         System.out.println(isPalindrome("sid",0,2));
     }
     static boolean isPalindrome(String str,int start,int end) {

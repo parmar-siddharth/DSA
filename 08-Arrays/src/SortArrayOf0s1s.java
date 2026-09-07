@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 public class SortArrayOf0s1s {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         int[] arr = {0,1,0,1,1,1,0,1,0};
         sort(arr);
     }

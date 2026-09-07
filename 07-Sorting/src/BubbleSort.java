@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 public class BubbleSort {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         int[] arr = {4,3,2,7,8,2,3,1};
         bubbleSort(arr);
     }

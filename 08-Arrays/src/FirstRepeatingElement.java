@@ -1,7 +1,7 @@
 import java.util.HashMap;
 
 public class FirstRepeatingElement {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         int[] arr = {92,1,8,2,4,92,1,66,8,12,5,4,5,8,5,9,3,4,7,2,69,4};
         System.out.println(firstRepeatingElement2(arr));
     }

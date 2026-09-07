@@ -1,5 +1,5 @@
 public class ReverseWordtringIII {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         String s = "Mr Ding";
         System.out.println(reverseWords(s));
     }

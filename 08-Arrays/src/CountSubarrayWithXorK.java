@@ -1,7 +1,7 @@
 import java.util.HashMap;
 
 public class CountSubarrayWithXorK {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         int[] arr = {4,2,2,6,4};
         System.out.println(countSubarrays(arr,6));
         System.out.println(countsubarrays(arr,6));

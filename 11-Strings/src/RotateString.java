@@ -1,5 +1,5 @@
 public class RotateString {
-    static void main(String[] args) {
+    public static void main(String[] args) {
        String s = "dawhwh";
        String goal = "hdawhw";
         System.out.println(rotateString(s,goal));

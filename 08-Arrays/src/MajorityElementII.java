@@ -3,7 +3,7 @@ import java.util.HashMap;
 import java.util.List;
 
 public class MajorityElementII {
-    static void main(String[] args) {
+    public static void main(String[] args) {
      //Given an integer array of size n, find all elements that appear more than ⌊n / 3⌋ times.
         int[] arr = {1,2};
         System.out.println(majorityELement(arr));

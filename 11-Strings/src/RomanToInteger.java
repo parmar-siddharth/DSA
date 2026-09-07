@@ -1,5 +1,5 @@
 public class RomanToInteger {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         String s = "DCXXI";
         System.out.println(romanToInt(s));
     }

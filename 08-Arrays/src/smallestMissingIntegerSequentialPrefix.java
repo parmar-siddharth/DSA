@@ -1,5 +1,5 @@
 public class smallestMissingIntegerSequentialPrefix {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         int[] arr = {1,2,3,2,5};
         System.out.println(missingInteger(arr));
     }

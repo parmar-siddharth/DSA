@@ -1,7 +1,7 @@
 import java.util.HashMap;
 
 public class MajorityElementI {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         /*
         Given an array nums of size n, return the majority element.
 

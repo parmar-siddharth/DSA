@@ -1,5 +1,5 @@
 public class FactorialUsingRecursion {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         System.out.println(factorial(5));
     }
     static int factorial(int n)

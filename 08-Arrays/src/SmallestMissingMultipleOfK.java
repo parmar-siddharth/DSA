@@ -1,7 +1,7 @@
 import java.util.HashSet;
 
 public class SmallestMissingMultipleOfK {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         int[] arr = {1,4,7,10,15};
         System.out.println(missingMultiple(arr,5));
     }

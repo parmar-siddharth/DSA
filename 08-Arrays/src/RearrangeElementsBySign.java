@@ -13,7 +13,7 @@ Return the modified array after rearranging the elements to satisfy the aforemen
 
  */
 public class RearrangeElementsBySign {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         int[] arr = {3,1,-2,-5,2,-4};
         System.out.println(Arrays.toString(rearrangeArray(arr)));
     }

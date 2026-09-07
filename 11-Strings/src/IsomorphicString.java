@@ -1,7 +1,7 @@
 import java.util.HashMap;
 
 public class IsomorphicString {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         String s = "f11";
         String t = "b23";
         System.out.println(isIsomorphic(s,t));

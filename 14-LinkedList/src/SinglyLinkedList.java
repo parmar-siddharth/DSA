@@ -11,7 +11,7 @@ class Node{
     }
 }
 public class SinglyLinkedList {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         Node first = new Node(10);
         Node second = new Node(20);
         Node third = new Node(30);

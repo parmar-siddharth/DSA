@@ -1,5 +1,5 @@
 public class BookAllocationProblem {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         int[] nums = {12, 34, 67, 90};
         System.out.println(findPages(nums,2));
     }

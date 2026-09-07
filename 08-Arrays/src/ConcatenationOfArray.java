@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 public class ConcatenationOfArray {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         int[] arr = {1,2,1};
         System.out.println(Arrays.toString(Concatenation(arr)));
     }

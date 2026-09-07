@@ -1,5 +1,5 @@
 public class PrintNameNTImes {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         printName(5);
     }
     static void printName(int n){

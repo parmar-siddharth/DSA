@@ -3,7 +3,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class DistributeElementsIntoTwoArrays {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         int[] nums = {8, 3, 7, 2, 6, 6, 1};
         System.out.println(Arrays.toString(resultArray(nums)));
     }

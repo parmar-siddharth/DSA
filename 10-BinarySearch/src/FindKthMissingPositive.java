@@ -1,7 +1,7 @@
 import com.sun.source.tree.BreakTree;
 
 public class FindKthMissingPositive {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         int[] arr = {1,2,3,4};
         System.out.println(findKthPositive(arr,17));
     }

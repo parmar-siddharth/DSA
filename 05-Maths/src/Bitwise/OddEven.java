@@ -1,7 +1,7 @@
 package Bitwise;
 
 public class OddEven {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         oddEven(4);
     }
     static void oddEven(int num) {

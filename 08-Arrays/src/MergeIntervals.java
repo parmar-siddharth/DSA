@@ -3,7 +3,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class MergeIntervals {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         int[][] intervals = {
                 {1,3},
                 {2,6},

@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 public class NextPermutation {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         int[] arr = {2,1,5,4,3};
         nextPermutation(arr);
         System.out.println(Arrays.toString(arr));

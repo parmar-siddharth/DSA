@@ -1,5 +1,5 @@
 public class DisasterReliefWindow {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         int[] scores = {-8,-3,-6,-2,-5};
         System.out.println(maximumSum(scores));
     }

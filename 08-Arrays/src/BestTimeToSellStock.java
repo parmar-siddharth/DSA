@@ -1,5 +1,5 @@
 public class BestTimeToSellStock {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         int[] arr = {4,5,9,2,7};
         System.out.println(maxProfit(arr));
     }

@@ -2,7 +2,7 @@
 import java.util.*;
 
 public class IntersectionOfTwoArrays{
-    static void main(String[] args) {
+    public static void main(String[] args) {
         int[] nums1 = {1, 14, 3, 8, 1,5};
         int[] nums2 = {1, 2, 6, 4, 1,17};
         System.out.println(Arrays.toString(intersection(nums1, nums2)));

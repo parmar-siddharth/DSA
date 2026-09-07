@@ -1,5 +1,5 @@
 public class MaximumProductSubarray {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         int[] input = {-2,0,-1};
         System.out.println(maxProduct(input));
     }

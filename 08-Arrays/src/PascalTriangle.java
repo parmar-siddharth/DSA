@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class PascalTriangle {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         int[][] nums = {{1},{1,1},{1,2,1},{1,3,3,1},{1,4,6,4,1}};
         System.out.println(nCr(5,3));
         System.out.println(printNthRow(4));

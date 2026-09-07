@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 public class RunningSumOf1DArray {
-    static void main(String[] args) {
+    public static void main(String[] args) {
     int[] nums = {1,2,3,4};
     System.out.println(Arrays.toString(nums));
     runningSum(nums);

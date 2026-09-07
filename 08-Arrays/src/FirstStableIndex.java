@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 public class FirstStableIndex {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         int[] nums = {5,0,1,4};
         System.out.println(firstStableIndex(nums,3));
     }

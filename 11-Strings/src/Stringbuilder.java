@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 
 public class Stringbuilder {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         String ans = "";
         char[] arr = {'h','e','l','l','o'};
         for(char ch : arr) {

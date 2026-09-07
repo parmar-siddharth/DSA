@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 public class AggresiveCows {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         int[] nums = {4, 2, 1, 3, 6};
         System.out.println(aggressiveCows(nums,2));
     }

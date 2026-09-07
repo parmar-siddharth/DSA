@@ -1,5 +1,5 @@
 public class AverageOfArrayElements {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         int[] arr ={5,8,4,12,6};
         System.out.println(average(arr));
     }

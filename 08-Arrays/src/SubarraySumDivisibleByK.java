@@ -1,7 +1,7 @@
 import java.util.HashMap;
 
 public class SubarraySumDivisibleByK {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         int[] arr = {-1,2,9};
         System.out.println(subarraysDivByK(arr,2));
     }

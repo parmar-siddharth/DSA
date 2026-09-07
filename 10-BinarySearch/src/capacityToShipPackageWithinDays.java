@@ -1,5 +1,5 @@
 public class capacityToShipPackageWithinDays {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         int[] weights = {1,2,3,1,1};
         System.out.println(shipWithinDays(weights,4));
     }

@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 public class ReveseAnArray {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         int[] arr = {1,2,3,4,5};
         reverse(arr,0,arr.length-1);
         System.out.println(Arrays.toString(arr));

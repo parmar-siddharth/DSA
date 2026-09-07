@@ -1,5 +1,5 @@
 public class NthRootOfaNumber {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         System.out.println(NthRoot(2,100));
     }
     static int NthRoot(int N,int M){

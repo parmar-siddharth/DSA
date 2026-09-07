@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 public class SquareOfSortedArray {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         int[] arr = {-14,-9,-3,4,7,12};
         System.out.println(Arrays.toString(sortedSquares2(arr)));
     }
