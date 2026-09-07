@@ -1,5 +1,3 @@
-package com.BinarySearch;
-
 public class FindInMountainArray {
     public static void main(String[] args) {
         int[] arr ={0,4,7,9,12,8,6,3,1};

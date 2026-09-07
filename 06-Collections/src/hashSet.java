@@ -1,5 +1,3 @@
-package com.collection;
-
 import java.util.HashSet;
 
 public class hashSet {

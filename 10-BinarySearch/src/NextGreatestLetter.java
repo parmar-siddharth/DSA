@@ -1,5 +1,3 @@
-package com.BinarySearch;
-
 public class NextGreatestLetter {
     public static void main(String[] args) {
         char[] letters = {'x','x','y','y'};

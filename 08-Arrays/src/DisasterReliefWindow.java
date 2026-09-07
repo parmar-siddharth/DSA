@@ -1,5 +1,3 @@
-package com.Arrays;
-
 public class DisasterReliefWindow {
     static void main(String[] args) {
         int[] scores = {-8,-3,-6,-2,-5};

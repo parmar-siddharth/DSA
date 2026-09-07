@@ -1,5 +1,3 @@
-package com.BinarySearch;
-
 public class FindRowWithMaximum1s {
     public static void main(String[] args) {
         int[][] mat = {

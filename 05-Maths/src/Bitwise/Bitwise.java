@@ -1,4 +1,4 @@
-package com.BitManipulation;
+package Bitwise;
 
 public class Bitwise {
     static void main(String[] args) {

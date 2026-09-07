@@ -1,5 +1,3 @@
-package com.Map;
-
 import java.util.TreeMap;
 
 public class Treemap {

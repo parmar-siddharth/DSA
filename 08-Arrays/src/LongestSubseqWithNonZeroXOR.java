@@ -1,5 +1,3 @@
-package com.Arrays;
-
 public class LongestSubseqWithNonZeroXOR {
     static void main(String[] args) {
         int[] arr = {0,7};

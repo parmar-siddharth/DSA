@@ -1,5 +1,3 @@
-package com.Arrays;
-
 public class LargestElement {
     public static void main(String[] args) {
         int[] arr = {5,7,9,12,8,17,6,19,28,41,27,24};

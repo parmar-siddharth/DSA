@@ -1,5 +1,3 @@
-package com.recursion;
-
 public class PalindromeUsingRecursion {
     static void main(String[] args) {
         System.out.println(isPalindrome("sid",0,2));

@@ -1,5 +1,3 @@
-package com.Arrays;
-
 public class SingleNumber {
     static void main(String[] args) {
         int[] arr = {4,1,2,1,2};

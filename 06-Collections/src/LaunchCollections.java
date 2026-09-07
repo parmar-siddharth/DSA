@@ -1,4 +1,3 @@
-package com.collection;
 import java.util.ArrayList;
 
 public class LaunchCollections

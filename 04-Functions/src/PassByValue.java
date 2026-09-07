@@ -1,5 +1,3 @@
-package com.functions;
-
 public class PassByValue {
     public static void main(String[] args) {
         String name = "sid";

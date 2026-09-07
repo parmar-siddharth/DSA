@@ -1,5 +1,3 @@
-package com.Arrays;
-
 public class SecondLargestElement {
     public static void main(String[] args) {
         int[] nums = {9,8,7,2,9,2,7,8,3,8};

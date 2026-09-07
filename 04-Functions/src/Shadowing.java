@@ -1,5 +1,3 @@
-package com.functions;
-
 public class Shadowing {
     static int num = 1000;
     public static void main(String[] args) {

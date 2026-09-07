@@ -1,5 +1,3 @@
-package com.BinarySearch;
-
 public class PosInfiniteElements {
     public static void main(String[] args) {
         int[] arr = {4,9,13,19,27,34,42,53,67,76,83,98,158,194,252,396,428,572,691,785,856,945,1024,1295,1458,1698,1724,1859};

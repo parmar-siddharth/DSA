@@ -1,5 +1,3 @@
-package com.BinarySearch;
-
 public class RotatedSortedArray {
     public static void main(String[] args) {
         int[] arr = {6,7,8,9,10,1,2,3,4,5};

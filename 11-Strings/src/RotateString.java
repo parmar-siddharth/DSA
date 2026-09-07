@@ -1,5 +1,3 @@
-package com.string;
-
 public class RotateString {
     static void main(String[] args) {
        String s = "dawhwh";

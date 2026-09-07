@@ -1,5 +1,3 @@
-package com.Arrays;
-
 public class BestTimeToSellStock {
     static void main(String[] args) {
         int[] arr = {4,5,9,2,7};

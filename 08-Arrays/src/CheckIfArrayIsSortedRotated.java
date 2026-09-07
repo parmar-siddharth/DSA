@@ -1,5 +1,3 @@
-package com.Arrays;
-
 public class CheckIfArrayIsSortedRotated {
     static void main(String[] args) {
 

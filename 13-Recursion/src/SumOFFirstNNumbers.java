@@ -1,5 +1,3 @@
-package com.recursion;
-
 public class SumOFFirstNNumbers {
     public static void main(String[] args) {
         System.out.println(sum(5));

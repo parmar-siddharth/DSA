@@ -1,5 +1,3 @@
-package com.BinarySearch;
-
 public class SearchIn2DMatrix2 {
     public static void main(String[] args) {
         int[][] arr = {

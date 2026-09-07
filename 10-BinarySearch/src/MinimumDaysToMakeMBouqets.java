@@ -1,5 +1,3 @@
-package com.BinarySearch;
-
 public class MinimumDaysToMakeMBouqets {
     static void main(String[] args) {
         int[] bloomDay = {1,10,3,10,2};

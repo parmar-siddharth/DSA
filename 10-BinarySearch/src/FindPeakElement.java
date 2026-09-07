@@ -1,5 +1,3 @@
-package com.BinarySearch;
-
 public class FindPeakElement {
     public static void main(String[] args) {
         int[] arr = {7,2,1,3,5,16,4};

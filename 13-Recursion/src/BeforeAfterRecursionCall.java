@@ -1,5 +1,3 @@
-package com.recursion;
-
 public class BeforeAfterRecursionCall {
     static void main(String[] args) {
         //printBeforeRecursion(10);

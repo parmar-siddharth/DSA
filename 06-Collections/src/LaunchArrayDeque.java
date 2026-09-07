@@ -1,9 +1,5 @@
-package com.collection;
-
 import java.util.ArrayDeque;
-class Telusko
-{
-	}
+
 public class LaunchArrayDeque 
 {
 	public static void main(String[] args)

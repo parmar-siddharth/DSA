@@ -1,4 +1,4 @@
-package com.Bitwise;
+package Bitwise;
 
 import java.util.Arrays;
 import java.util.HashMap;

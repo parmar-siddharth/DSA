@@ -1,5 +1,3 @@
-package com.BinarySearch;
-
 import java.lang.reflect.Array;
 import java.util.Arrays;
 

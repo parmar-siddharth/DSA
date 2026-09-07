@@ -1,5 +1,3 @@
-package com.Map;
-
 import java.util.HashMap;
 
 public class HashMap3 {

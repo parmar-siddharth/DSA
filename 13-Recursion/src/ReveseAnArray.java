@@ -1,5 +1,3 @@
-package com.recursion;
-
 import java.util.Arrays;
 
 public class ReveseAnArray {

@@ -1,5 +1,3 @@
-package com.Arrays;
-
 public class MaximumProductSubarray {
     static void main(String[] args) {
         int[] input = {-2,0,-1};

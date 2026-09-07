@@ -1,4 +1,4 @@
-package com.Maths;
+package Maths;
 
 public class SetithBit {  // turn it to 1
     public static void main(String[] args) {

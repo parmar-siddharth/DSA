@@ -1,5 +1,3 @@
-package com.recursion;
-
 public class CheckIfArrayIsSorted {
     static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 5};

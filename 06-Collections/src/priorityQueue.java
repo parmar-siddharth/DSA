@@ -1,5 +1,3 @@
-package com.collection;
-
 import java.util.PriorityQueue;
 
 public class priorityQueue {

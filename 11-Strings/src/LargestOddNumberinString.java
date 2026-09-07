@@ -1,5 +1,3 @@
-package com.string;
-
 public class LargestOddNumberinString {
     static void main(String[] args) {
         String num = "5234";

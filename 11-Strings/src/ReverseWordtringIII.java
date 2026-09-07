@@ -1,5 +1,3 @@
-package com.string;
-
 public class ReverseWordtringIII {
     static void main(String[] args) {
         String s = "Mr Ding";

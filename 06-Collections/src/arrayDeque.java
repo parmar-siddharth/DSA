@@ -1,5 +1,3 @@
-package com.collection;
-
 import java.util.ArrayDeque;
 class Alpha {
 

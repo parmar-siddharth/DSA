@@ -1,5 +1,3 @@
-package com.recursion;
-
 public class Print1toN {
     static void main(String[] args) {
         printNos(10);

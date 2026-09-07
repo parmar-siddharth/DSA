@@ -1,5 +1,3 @@
-package com.functions;
-
 public class methodOverloading {
     public static void main(String[] args) {
         result(800); // when we pass argument it automatically decides which function to call

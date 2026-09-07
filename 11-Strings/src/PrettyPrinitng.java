@@ -1,7 +1,5 @@
-package com.string;
-
 public class PrettyPrinitng {
-    public static void main(StringBasics[] args) {
+    public static void main(String[] args) {
         float a = 45.2568f;
         System.out.printf("formatted no is %.2f",a); //45.26
 

@@ -1,4 +1,4 @@
-package com.Bitwise;
+package Bitwise;
 // Leetcode Q.no : 7
 import java.util.Scanner;
 

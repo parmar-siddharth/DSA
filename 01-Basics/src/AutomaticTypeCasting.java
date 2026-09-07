@@ -1,5 +1,3 @@
-package com.Basics;
-
 public class AutomaticTypeCasting {
     public static void main(String[] args) {
         byte b = 42;

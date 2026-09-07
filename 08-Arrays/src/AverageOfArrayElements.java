@@ -1,5 +1,3 @@
-package com.Arrays;
-
 public class AverageOfArrayElements {
     static void main(String[] args) {
         int[] arr ={5,8,4,12,6};

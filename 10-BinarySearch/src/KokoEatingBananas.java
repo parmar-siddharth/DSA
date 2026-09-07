@@ -1,5 +1,3 @@
-package com.BinarySearch;
-
 public class KokoEatingBananas {
     static void main(String[] args) {
         int[] piles = {805306368,805306368,805306368};

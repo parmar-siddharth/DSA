@@ -1,5 +1,3 @@
-package com.Arrays;
-
 import java.util.*;
 
 public class ThreeSum {

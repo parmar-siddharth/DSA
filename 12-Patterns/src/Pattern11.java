@@ -1,5 +1,3 @@
-package com.patterns;
-
 public class Pattern11 {
     public static void main(String[] args) {
         pattern11(5);

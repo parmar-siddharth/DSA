@@ -1,4 +1,4 @@
-package com.Maths;
+package Maths;
 // Leetcode Q no 2119
 import java.util.Scanner;
 

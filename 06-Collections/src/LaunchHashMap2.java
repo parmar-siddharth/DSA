@@ -1,5 +1,3 @@
-package com.Map;
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;

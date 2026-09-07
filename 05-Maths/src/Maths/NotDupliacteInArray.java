@@ -1,4 +1,4 @@
-package com.Maths;
+package Maths;
 
 public class NotDupliacteInArray {
     public static void main(String[] args) {

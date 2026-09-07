@@ -1,5 +1,3 @@
-package com.functions;
-
 class getterSetter {
     private String name;
 

@@ -1,5 +1,3 @@
-package com.string;
-
 public class StringBasics {
     static void main(String[] args) {
 

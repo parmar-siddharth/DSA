@@ -1,5 +1,3 @@
-package com.LinearSearch;
-
 public class MaxValueIN2DArr {
     public static void main(String[] args) {
         int[][] arr = {

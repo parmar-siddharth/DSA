@@ -1,5 +1,3 @@
-package com.Arrays;
-
 public class FirstUnsortedElement {
     static void main(String[] args) {
         int[] arr = {4,8,7,9,2,1,2,7,8,3,8};

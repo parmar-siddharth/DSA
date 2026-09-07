@@ -1,5 +1,3 @@
-package com.BinarySearch;
-
 public class PeakElementRotatedSorted {
     public static void main(String[] args) {
         int[] arr = {5,8,9,11,13,17,19,21,27,33,37,0,1,2,3};

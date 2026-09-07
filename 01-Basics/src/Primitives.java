@@ -1,5 +1,3 @@
-package com.Basics;
-
 public class Primitives {
     public static void main(String[] args) {
         int rollNo = 21;   // size: 8 bytes

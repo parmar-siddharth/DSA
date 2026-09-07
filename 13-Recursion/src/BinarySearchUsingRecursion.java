@@ -1,5 +1,3 @@
-package com.recursion;
-
 public class BinarySearchUsingRecursion {
     public static void main(String[] args) {
         int[] arr = {14,21,24,27,29};

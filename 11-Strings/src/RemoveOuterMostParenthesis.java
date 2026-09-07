@@ -1,5 +1,3 @@
-package com.string;
-
 public class RemoveOuterMostParenthesis {
     static void main(String[] args) {
         String s = "(()())(())";

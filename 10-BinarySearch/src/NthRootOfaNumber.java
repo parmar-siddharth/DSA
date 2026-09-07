@@ -1,5 +1,3 @@
-package com.BinarySearch;
-
 public class NthRootOfaNumber {
     static void main(String[] args) {
         System.out.println(NthRoot(2,100));

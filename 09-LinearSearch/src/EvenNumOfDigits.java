@@ -1,5 +1,3 @@
-package com.LinearSearch;
-
 // Leetcode Q.no : 1295
 public class EvenNumOfDigits {
     public static void main(String[] args) {

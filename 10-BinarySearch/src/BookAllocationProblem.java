@@ -1,5 +1,3 @@
-package com.BinarySearch;
-
 public class BookAllocationProblem {
     static void main(String[] args) {
         int[] nums = {12, 34, 67, 90};

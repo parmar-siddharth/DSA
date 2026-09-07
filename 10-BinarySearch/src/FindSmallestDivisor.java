@@ -1,5 +1,3 @@
-package com.BinarySearch;
-
 public class FindSmallestDivisor {
     static void main(String[] args) {
         int[] nums = {44,22,33,11,1};

@@ -1,5 +1,3 @@
-package com.recursion;
-
 public class PrintNameNTImes {
     static void main(String[] args) {
         printName(5);

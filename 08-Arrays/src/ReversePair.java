@@ -1,5 +1,3 @@
-package com.Arrays;
-
 public class ReversePair {
     static void main(String[] args) {
         int[] arr = {2147483647,2147483647,2147483647,2147483647,2147483647,2147483647};

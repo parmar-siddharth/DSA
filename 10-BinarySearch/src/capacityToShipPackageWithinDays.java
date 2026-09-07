@@ -1,5 +1,3 @@
-package com.BinarySearch;
-
 public class capacityToShipPackageWithinDays {
     static void main(String[] args) {
         int[] weights = {1,2,3,1,1};

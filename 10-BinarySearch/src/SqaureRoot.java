@@ -1,5 +1,3 @@
-package com.BinarySearch;
-
 public class SqaureRoot {
     public static void main(String[] args) {
         System.out.println(srqt(170));

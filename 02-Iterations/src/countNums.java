@@ -1,5 +1,3 @@
-package com.Iterations;
-
 import java.util.Scanner;
 
 public class countNums {

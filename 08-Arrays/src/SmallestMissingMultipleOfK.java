@@ -1,5 +1,3 @@
-package com.Arrays;
-
 import java.util.HashSet;
 
 public class SmallestMissingMultipleOfK {

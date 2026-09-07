@@ -1,5 +1,3 @@
-package com.BinarySearch;
-
 import java.util.Arrays;
 
 public class AggresiveCows {

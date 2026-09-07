@@ -1,5 +1,3 @@
-package com.LinearSearch;
-
 import java.util.Scanner;
 
 public class SearchInArray {

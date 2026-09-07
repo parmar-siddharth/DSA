@@ -1,5 +1,3 @@
-package com.functions;
-
 import java.util.Scanner;
 
 public class SwapNum {

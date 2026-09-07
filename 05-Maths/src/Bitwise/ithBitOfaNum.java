@@ -1,4 +1,4 @@
-package com.Bitwise;
+package Bitwise;
 
 public class ithBitOfaNum {
     public static void main(String[] args) {

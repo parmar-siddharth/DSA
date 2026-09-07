@@ -1,5 +1,3 @@
-package com.BinarySearch;
-
 public class OrderAgnosticBS {
     public static void main(String[] args) {
         int[] arr = {87,54,44,37,33,27,21,19,17,15,9,7,1};

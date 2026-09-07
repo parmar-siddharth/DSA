@@ -1,5 +1,3 @@
-package com.BinarySearch;
-
 import com.sun.source.tree.BreakTree;
 
 public class FindKthMissingPositive {

@@ -1,5 +1,3 @@
-package com.recursion;
-
 public class FactorialUsingRecursion {
     static void main(String[] args) {
         System.out.println(factorial(5));

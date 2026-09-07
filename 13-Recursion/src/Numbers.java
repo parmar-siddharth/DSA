@@ -1,5 +1,3 @@
-package com.recursion;
-
 public class Numbers{
     public static void main(String[] args) {
         //write a func that takes in a number and print it

@@ -1,5 +1,3 @@
-package com.Arrays;
-
 public class ArrayIsSorted {
     static void main(String[] args) {
         int[] arr = {1,2,9,5,7,8};
