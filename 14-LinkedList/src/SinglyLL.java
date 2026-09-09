@@ -1,12 +1,12 @@
 class SinglyLL {
 
     private Node head;
-    private Node tail;
+    private Node last;
     private int size;
 
     public SinglyLL(){
         this.head = null;
-        this.tail = null;
+        this.last = null;
         this.size = 0;
     }
 
@@ -23,21 +23,21 @@ class SinglyLL {
        node.next = head;
        head = node;
 
-       if (tail == null){
-           tail = node;
+       if (last == null){
+           last = node;
        }
 
        size++;
    }
 
    public void insertLast(int val){
-       if (tail == null){
+       if (last == null){
            insertFirst(val);
            return;
        }
        Node node = new Node(val);
-       tail.next = node;
-       tail = node;
+       last.next = node;
+       last = node;
 
        size++;
    }
@@ -69,17 +69,17 @@ class SinglyLL {
    }
 
    public void deleteLast(){
-       Node temp = head;
+    //    Node temp = head;
 
 //       while (temp.next.next != null){
 //           temp = temp.next;
 //       }
 //
 //       temp.next = null;
-//       tail = temp;
+//       last = temp;
 
        Node secondLast = get(size - 2);
-       tail = secondLast;
+       last = secondLast;
        secondLast.next = null;
        size--;
 
@@ -118,10 +118,10 @@ class SinglyLL {
     }
 
     public int getTail(){
-        if (tail == null){
+        if (last == null){
             return -1;
         }
-        return tail.val;
+        return last.val;
     }
 
     private class Node{
