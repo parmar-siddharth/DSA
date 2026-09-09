@@ -1,4 +1,4 @@
-package Maths;
+package MathsDSA;
 
 public class countCommasII {
     public static void main(String[] args) {

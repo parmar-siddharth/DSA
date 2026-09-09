@@ -1,4 +1,4 @@
-package Maths;
+package MathsDSA;
 // Leetcode Q no 1281
 import java.util.Scanner;
 

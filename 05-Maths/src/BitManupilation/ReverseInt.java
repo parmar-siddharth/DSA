@@ -1,4 +1,4 @@
-package Bitwise;
+package BitManupilation;
 // Leetcode Q.no : 7
 import java.util.Scanner;
 

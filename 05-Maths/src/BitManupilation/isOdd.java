@@ -1,4 +1,4 @@
-package Bitwise;
+package BitManupilation;
 
 public class isOdd {
     public static void main(String[] args) {

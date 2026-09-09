@@ -1,4 +1,4 @@
-package Bitwise;
+package BitManupilation;
 
 public class Bitwise {
     public static void main(String[] args) {

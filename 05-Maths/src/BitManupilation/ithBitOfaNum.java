@@ -1,4 +1,4 @@
-package Bitwise;
+package BitManupilation;
 
 public class ithBitOfaNum {
     public static void main(String[] args) {

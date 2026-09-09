@@ -97,17 +97,12 @@ public class CircularDoublyLL {
             last = null;
         }
         else{
-            Node temp = head;
-
-            while(temp.next.next != head){
-                temp = temp.next;
-            }
-
-            temp.next = null;
-            last = temp;
-
-            size--;
+           last = last.prev;
+           last.next = head;
+           head.prev = last;
         }
+
+        size--;
     }
 
     public void delete(int index,int val){
