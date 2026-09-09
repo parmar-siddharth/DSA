@@ -4,6 +4,8 @@ class DoublyLL{
     private int size;
 
     public DoublyLL(){
+        this.head = null;
+        this.last = null;
         this.size = 0;
     }
 

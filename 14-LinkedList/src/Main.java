@@ -20,18 +20,24 @@ public class Main {
         // list.delete(2);
         // list.display();
 
-        DoublyLL doublyLL = new DoublyLL();
-        doublyLL.insertFirst(0);
-        doublyLL.insertLast(10);
-        doublyLL.insertLast(15);
-        doublyLL.insertLast(20);
-        doublyLL.insert(5, 1);
-        doublyLL.display();
-        System.out.println(doublyLL.getSize());
-        System.out.println(doublyLL.get(3));
-        doublyLL.delete(2);
-        doublyLL.display();
-        doublyLL.reverse();
-        System.out.println(doublyLL.find(15));
+        // DoublyLL doublyLL = new DoublyLL();
+        // doublyLL.insertFirst(0);
+        // doublyLL.insertLast(10);
+        // doublyLL.insertLast(15);
+        // doublyLL.insertLast(20);
+        // doublyLL.insert(5, 1);
+        // doublyLL.display();
+        // System.out.println(doublyLL.getSize());
+        // System.out.println(doublyLL.get(3));
+        // doublyLL.delete(2);
+        // doublyLL.display();
+        // doublyLL.reverse();
+        // System.out.println(doublyLL.find(15));
+
+        CircularSinglyLL circularSinglyLL = new CircularSinglyLL();
+        circularSinglyLL.insertFirst(10);
+        circularSinglyLL.insertLast(30);
+        circularSinglyLL.insert(1, 20);
+        circularSinglyLL.display();
     }
 }
