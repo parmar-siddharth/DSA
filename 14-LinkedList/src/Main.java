@@ -1,3 +1,6 @@
+
+import java.util.LinkedList;
+
 public class Main {
     public static void main(String[] args) {
         // SinglyLL list = new SinglyLL();
@@ -34,10 +37,21 @@ public class Main {
         // doublyLL.reverse();
         // System.out.println(doublyLL.find(15));
 
-        CircularSinglyLL circularSinglyLL = new CircularSinglyLL();
-        circularSinglyLL.insertFirst(10);
-        circularSinglyLL.insertLast(30);
-        circularSinglyLL.insert(1, 20);
-        circularSinglyLL.display();
+        // CircularSinglyLL circularSinglyLL = new CircularSinglyLL();
+        // circularSinglyLL.insertFirst(10);
+        // circularSinglyLL.insertLast(30);
+        // circularSinglyLL.insert(1, 20);
+        // circularSinglyLL.display();
+
+        CircularDoublyLL circularDoublyLL = new CircularDoublyLL();
+        circularDoublyLL.insertFirst(10);
+        circularDoublyLL.insertLast(30);
+        circularDoublyLL.insertLast(40);
+        circularDoublyLL.insert(1, 20);
+        circularDoublyLL.display();
+        circularDoublyLL.delete(2);
+        circularDoublyLL.display();
+
+        LinkedList<Integer> list = new LinkedList<>();
     }
 }

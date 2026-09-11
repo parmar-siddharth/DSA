@@ -105,23 +105,27 @@ public class CircularDoublyLL {
         size--;
     }
 
-    public void delete(int index,int val){
-        if(index == 0){
-            deleteFirst();
-            return;
-        }
-       
-        if(index == size - 1){
-             deleteLast();
-             return;
-        }
+    public void delete(int index){
+       if(index == 0) {
+        deleteFirst();
+        return;
+       }
 
-        Node temp = head;
-        for(int i = 1; i < index; i++){
-            temp = temp.next;
-        }
-        temp.next = temp.next.next;
-        size--;
+       if(index == size - 1) {
+        deleteLast();
+        return;
+       }
+
+       Node temp = head;
+       for(int i = 1; i < index; i++){
+        temp = temp.next;
+       }
+
+       temp.next = temp.next.next;
+       temp.next.prev = temp;
+
+       size--;
+
     }
 
     public void display(){
