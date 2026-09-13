@@ -122,7 +122,7 @@ public class CircularSinglyLL {
         Node temp = head;
         for(int i = 0; i < size; i++){
             System.out.print(temp.data + " -> ");
-            temp = temp.next;
+            temp = temp.next; 
         }
         System.out.println("null");
     }

@@ -6,17 +6,17 @@ public class FirstRepeatingElement {
         System.out.println(firstRepeatingElement2(arr));
     }
 
-    static int firstRepeatingElement(int[] arr) {
-        int n = arr.length;
-        for (int i = 0; i < n; i++) {
-            for (int j = i + 1; j < n; j++) {
-                if (arr[i] == arr[j]) {
-                    return i;
-                }
-            }
-        }
-        return -1;
-    }
+    // static int firstRepeatingElement(int[] arr) {
+    //     int n = arr.length;
+    //     for (int i = 0; i < n; i++) {
+    //         for (int j = i + 1; j < n; j++) {
+    //             if (arr[i] == arr[j]) {
+    //                 return i;
+    //             }
+    //         }
+    //     }
+    //     return -1;
+    // }
 
     static int firstRepeatingElement2(int[] arr) {
         int n = arr.length;
