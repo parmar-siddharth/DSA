@@ -1,5 +1,4 @@
-import java.util.HashMap;
-import java.util.LinkedHashMap;
+import java.util.*;
 
 public class LaunchHashmap {
     public static void main(String[] args) {
@@ -38,5 +37,12 @@ public class LaunchHashmap {
         //{4=piyush, 5=karan, 6=karan, 7=Arun, null=Rahul, 8=null}
         //order of insertion is maintained in LinkedHashMap
         // Basically linked list + hash map = Linked HashMap
+
+        ArrayList<Map.Entry<Integer,String>> list = new ArrayList<>(hm1.entrySet());
+        System.out.println(list);
+
+        Set<Map.Entry<Integer,String>> set = hm1.entrySet();
+        System.out.println(set);
+
     }
 }

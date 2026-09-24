@@ -10,6 +10,8 @@ public class hashSet {
         hashSet.add(94);
         hashSet.add(null); // null allowed
         System.out.println(hashSet);
+//        hashSet.clear();
+//        System.out.println(hashSet);
         //[null, 71, 58, 45, 94]
         /*
             HashSet:

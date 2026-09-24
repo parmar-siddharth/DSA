@@ -10,6 +10,10 @@ class SinglyLL {
         this.size = 0;
     }
 
+    public Node getHead() {
+        return head;
+    }
+
     public Node get(int index){
         Node node = head;
         for (int i = 0; i < index; i++) {
@@ -100,6 +104,24 @@ class SinglyLL {
        size--;
    }
 
+   public void reversedListNode(Node head){
+        Node reverse = null;
+        Node temp = head;
+
+        while(temp != null){
+            Node node = new Node(temp.val);
+            node.next = reverse;
+            reverse = node;
+            temp = temp.next;
+       }
+
+        while (reverse != null){
+            System.out.print(reverse.val + "|");
+            reverse = reverse.next;
+        }
+       System.out.println("null");
+   }
+
    public int getSize(){
        return size;
    }
@@ -124,7 +146,7 @@ class SinglyLL {
         return last.val;
     }
 
-    private class Node{
+    public class Node{
 
         private int val;
         private Node next;

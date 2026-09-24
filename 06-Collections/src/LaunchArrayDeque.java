@@ -16,9 +16,12 @@ public class LaunchArrayDeque
 		ad.add(45.5);
 		ad.add(4);
 		ad.add(4);
+		System.out.println(ad.peek());
+		System.out.println(ad.pop());
 //		ad.add(null);//exception
+		ad.push(9);
 		System.out.println(ad);
-		
+
 		
 		
 	}

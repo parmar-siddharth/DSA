@@ -1,17 +1,22 @@
-
-import java.util.LinkedList;
-
-public class Main {
+public class LinkedList {
     public static void main(String[] args) {
-        // SinglyLL list = new SinglyLL();
-        // list.insertFirst(3);
-        // list.insertFirst(5);
-        // list.insertFirst(7);
-        // list.insertFirst(9);
-        // list.insertLast(10);
-        // list.insertLast(17);
-        // list.insertLast(19);
-        // list.display();
+         SinglyLL list = new SinglyLL();
+         list.insertFirst(3);
+         list.insertFirst(5);
+         list.insertFirst(7);
+         list.insertFirst(9);
+         list.insertLast(10);
+         list.insertLast(17);
+         list.insertLast(19);
+        System.out.println("Original:");
+        list.display();
+
+        System.out.println("Reversed:");
+        list.reversedListNode(list.getHead());
+
+        System.out.println("Original again:");
+        list.display();
+
         // list.insert(15,5);
         // list.display();
         // list.getSize();
@@ -43,15 +48,14 @@ public class Main {
         // circularSinglyLL.insert(1, 20);
         // circularSinglyLL.display();
 
-        CircularDoublyLL circularDoublyLL = new CircularDoublyLL();
-        circularDoublyLL.insertFirst(10);
-        circularDoublyLL.insertLast(30);
-        circularDoublyLL.insertLast(40);
-        circularDoublyLL.insert(1, 20);
-        circularDoublyLL.display();
-        circularDoublyLL.delete(2);
-        circularDoublyLL.display();
+//        CircularDoublyLL circularDoublyLL = new CircularDoublyLL();
+//        circularDoublyLL.insertFirst(10);
+//        circularDoublyLL.insertLast(30);
+//        circularDoublyLL.insertLast(40);
+//        circularDoublyLL.insert(1, 20);
+//        circularDoublyLL.display();
+//        circularDoublyLL.delete(2);
+//        circularDoublyLL.display();
 
-        LinkedList<Integer> list = new LinkedList<>();
     }
 }

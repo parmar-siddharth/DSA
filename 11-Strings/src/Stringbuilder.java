@@ -83,5 +83,10 @@ public class Stringbuilder {
         Arrays.sort(arrrr);
         String sorted = new String(arrrr);
         System.out.println(sorted);
+
+
+        String string = "jbuvibjgbuvyvbbj";
+        String temp = string.substring(0,3);
+        System.out.println(temp);
     }
 }
