@@ -25,9 +25,10 @@ I am using this repo to learn, implement, and revise DSA concepts step by step u
 - ✅ Recursion
 - ✅ Searching Algorithms
 - ✅ Sorting Algorithms
+- ✅ Hashing
 - ✅ Linked List
+- ✅ Sliding Window
 - 🔄 Stack & Queue
-- 🔄 Hashing
 - 🔄 Trees
 - 🔄 Graphs
 - 🔄 Dynamic Programming
