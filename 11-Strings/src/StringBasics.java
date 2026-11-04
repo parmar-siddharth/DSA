@@ -29,7 +29,7 @@ public class StringBasics {
          */
 
         String c = new String("wow");
-        String d = new String("wow");
+        String d = new String("oww");
         System.out.println(c == d); // false // both are pointing to diff objects
         System.out.println(c.equals(d)); // true // because literal is same
 

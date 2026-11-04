@@ -2,26 +2,38 @@ import java.util.Arrays;
 
 public class RotateArrayByK {
     public static void main(String[] args) {
-        int[] arr = {1,2,3,4,5,6,7};
-        Rotate(arr,3);
+        int[] nums = {1,2,3,4,5,6,7};
+        Rotate(nums,3);
+        System.out.println(Arrays.toString(nums));
     }
     //brute force for rotation by k places
-    static void Rotate(int[] nums, int k) {
+    static void Rotate(int[] nums, int k){
         int n = nums.length;
-        int[] temp = new int[k];
-        int j = 0;
-        for (int i = n-k; i < n ; i++) {
-            temp[j++] = nums[i];
+        for(int i = 0; i < k; i++){
+            int temp = nums[n - 1];
+            for (int j = n - 2; j >= 0; j--) {
+                nums[j + 1] = nums[j];
+            }
+            nums[0] = temp;
         }
-        for (int i = 1; i <= n-k; i++) {
-            nums[n-i] = nums[n-k-i];
-        }
-        for (int i = 0; i < temp.length; i++){
-            nums[i] = temp[i];
-        }
-        System.out.println(Arrays.toString(nums));
-
     }
+
+//    static void Rotate(int[] nums, int k) {
+//        int n = nums.length;
+//        int[] temp = new int[k];
+//        int j = 0;
+//        for (int i = n-k; i < n ; i++) {
+//            temp[j++] = nums[i];
+//        }
+//        for (int i = 1; i <= n-k; i++) {
+//            nums[n-i] = nums[n-k-i];
+//        }
+//        for (int i = 0; i < temp.length; i++){
+//            nums[i] = temp[i];
+//        }
+//        System.out.println(Arrays.toString(nums));
+//    }
+
     // optimal soln
     static void rotate(int[] nums, int k) {
         int n = nums.length;

@@ -1,4 +1,4 @@
-public class ReverseWordtringIII {
+public class ReverseWordStringIII {
     public static void main(String[] args) {
         String s = "Mr Ding";
         System.out.println(reverseWords(s));
